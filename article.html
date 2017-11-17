@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/article.css">
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--<link rel="stylesheet" href="css/">-->
+
+    <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery
+/jquery-1.4.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <script src="js/jquery_color.js"></script>
+    <script src="js/jquery-rotate.min.js"></script>
+    <script src="js/article.js"></script>
+    <title>Article</title>
+</head>
+<body>
+
+<!--全屏毛玻璃-->
+<div class="body_glass" onmousewheel="return false;"></div>
+<!--搜索-->
+<div class="body_spot_frame">
+    <img src="img/main/submit.png" alt="submit" class="submit">
+    <input type="text" class="body_spot_frame" value="搜索">
+</div>
+<!--帮助-->
+<div class="body_spot_try">
+    <span style="color: white;font-size:20px;margin:10px 10px 10px 10px;opacity: 0;">试一试：</span>
+    <div class="try_text"><span>html</span></div>
+    <div class="try_text"><span>css</span></div>
+    <div class="try_text"><span>javascript</span></div>
+    <div class="try_text"><span>jquery</span></div>
+    <div class="try_text"><span>django</span></div>
+    <div class="try_text"><span>python</span></div>
+    <div class="try_text"><span>Ps</span></div>
+    <div class="try_text"><span>Pr</span></div>
+    <div class="try_text"><span>Ae</span></div>
+    <div class="try_text"><span>Maya</span></div>
+</div>
+<!--main-->
+<div class="main_container">
+    <!--导航栏-->
+    <header>
+        <div class="header_options"></div>
+        <div class="header_options header_options_change">
+            <a class="header_options_text" href="index.html"><span class="header_options_text">首页</span></a>
+            <span class="header_options_expand">Home</span>
+        </div>
+        <div class="header_options header_options_change">
+            <a href="article.html" class="header_options_text"><span class="header_options_text">博文</span></a>
+            <span class="header_options_expand">Article</span>
+        </div>
+        <!--<div class="header_options header_options_change"><p class="header_options_text">博文</p></div>-->
+        <div class="header_options header_options_change">
+            <a href="#" class="header_options_text"><span class="header_options_text">订阅</span></a>
+            <span class="header_options_expand">RSS</span>
+        </div>
+        <div class="header_options header_options_change">
+            <a href="#" class="header_options_text"><span class="header_options_text">后台管理</span></a>
+            <span class="header_options_expand">Manage</span>
+        </div>
+        <div class="header_options header_options_change">
+            <a href="#" class="header_options_text"><span class="header_options_text">关于我们</span></a>
+            <span class="header_options_expand">About Us</span>
+        </div>
+        <div class="header_options"><p class="header_options_text"></p></div>
+        <div class="header_options header_options_change spot" ><img src="img/main/header_option_spot.png" alt="spot" id="header_option_spot"></div>
+    </header>
+    <!--博客内容-->
+    <div class="body">
+        <div class="body_guide">
+            <div class="list_head list_head1">
+                <div class="spread"></div>
+                <span class="list_head_text web">按时间</span>
+            </div>
+            <ul class="list web_list">
+                <li><a href="#">2017.11</a></li>
+                <li><a href="#">2017.10</a></li>
+                <li><a href="#">2017.9</a></li>
+                <li><a href="#">2017.6</a></li>
+                <li><a href="#">2017.5</a></li>
+                <li><a href="#">2017.4</a></li>
+                <li><a href="#">2017.3</a></li>
+                <li><a href="#">2016.12</a></li>
+            </ul>
+
+            <div class="list_head list_head2">
+                <div class="spread"></div>
+                <span class="list_head_text backend">按关键词</span>
+            </div>
+            <ul class="list backend_list">
+                <li><a href="#">Django</a></li>
+                <li><a href="#">python</a></li>
+                <li><a href="#">Photoshop</a></li>
+                <li><a href="#">Premiere</a></li>
+                <li><a href="#">After Effects</a></li>
+                <li><a href="#">Autodesk Maya</a></li>
+            </ul>
+
+            <div class="list_head list_head3">
+                <div class="spread"></div>
+                <span class="list_head_text design">按访问量</span>
+            </div>
+            <ul class="list design_list">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+            </ul>
+
+            <!--<div class="list_head list_head4">-->
+                <!--<div class="spread"></div>-->
+                <!--<span class="list_head_text other">其他</span>-->
+            <!--</div>-->
+            <!--<ul class="list other_list">-->
+                <!--<li><a href="#">I</a></li>-->
+                <!--<li><a href="#">don't</a></li>-->
+                <!--<li><a href="#">know</a></li>-->
+                <!--<li><a href="#">what</a></li>-->
+                <!--<li><a href="#">to</a></li>-->
+                <!--<li><a href="#">say</a></li>-->
+            <!--</ul>-->
+        </div>
+
+        <div class="body_main">
+            <div class="body_main_article">
+                <h1>test</h1>
+                <p>this is the article</p>
+            </div>
+            <div class="body_main_comment">
+                <h1>test</h1>
+                <p>this is the comment</p>
+            </div>
+        </div>
+
+    </div>
+    <!--网页尾-->
+    <footer>
+    <div class="footer_logo">
+        <img src="img/main/Logo.png" alt="Logo" class="footer_logo_img">
+    </div>
+    <div class="footer_follow">
+        <p style="color: white;font-size: 26px;text-align: center;"><b>Follow Us</b></p>
+        <div style="margin-left: 20px;margin-right:20px;">
+            <img src="img/main/Facebook_1.png" alt="Facebook" class="footer_follow_img" id="follow_img1">
+            <img src="img/main/Twitter_1.png" alt="Twitter" class="footer_follow_img" id="follow_img2">
+            <img src="img/main/Google_1.png" alt="Google" class="footer_follow_img" id="follow_img3">
+            <img src="img/main/Sina_1.png" alt="Sina" class="footer_follow_img" id="follow_img4">
+            <img src="img/main/Wechat_1.png" alt="Wechat" class="footer_follow_img" id="follow_img5">
+            <a href="mailto:1399478309@qq.com"><img src="img/main/Email_1.png" alt="E-mail" class="footer_follow_img" id="follow_img6"></a>
+        </div>
+    </div>
+
+    <div class="footer_link">
+        <p class="footer_link_text">&nbsp;</p>
+        <p class="footer_link_text">&nbsp;</p>
+        <a href="#" class="footer_link"><p class="footer_link_text"><nobr>不要去触碰</nobr></p></a>
+        <a href="#" class="footer_link"><p class="footer_link_text"></nobr>尘封的故事</nobr></p></a>
+        <a href="#" class="footer_link"><p class="footer_link_text"></nobr>而是去寻找</nobr></p></a>
+        <a href="#" class="footer_link"><p class="footer_link_text"></nobr>我们的未来</nobr></p></a>
+        <!--<p class="footer_link_text"></p>-->
+    </div>
+
+    <div class="footer_right">
+        <div class="footer_up">
+            <img src="img/main/stick.png" alt="stick" class="footer_stick_img">
+        </div>
+
+        <div class="footer_down">
+            <p class="footer_copy">&copy;2017 BLOG t.g.s All rights reserved.</p>
+        </div>
+    </div>
+
+
+</footer>
+</div>
+
+</body>
+</html>
